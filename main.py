@@ -8,13 +8,13 @@ from aiogram.client.default import DefaultBotProperties
 
 logging.basicConfig(level=logging.INFO)
 
-# Вставь сюда свой токен
+
 TOKEN = "8094199490:AAFDXH48wy23NXnlxM7lm9AktdzSadcOevw"
 
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode='HTML'))
 dp = Dispatcher()
 
-# Данные поддержки
+
 support_data = {
     "sad": {
         "phrases": [
@@ -26,9 +26,11 @@ support_data = {
         "tips": [
             "• Напиши, что ты чувствуешь — это разгрузит ум.",
             "• Погуляй на свежем воздухе хотя бы 10 минут.",
-            "• Включи любимую музыку или обними что-то мягкое."
+            "• Включи любимую музыку или обними что-то мягкое.",
+            "• Позвони другу или близкому человеку — поговори о том, что на душе.",
+            "• Сделай паузу и посмотри на мир вокруг — иногда важно просто быть в моменте."
         ],
-        "video": "https://youtu.be/yhjDHngUmkE"  # Ссылка на видео для этой темы
+        "video": "https://youtu.be/yhjDHngUmkE"  
     },
     "tired": {
         "phrases": [
@@ -40,9 +42,11 @@ support_data = {
         "tips": [
             "• Сделай перерыв от экрана и выпей воды.",
             "• Ляг, закрой глаза на 5 минут и просто дыши.",
-            "• Раздели дела на маленькие шаги — не нужно всё сразу."
+            "• Раздели дела на маленькие шаги — не нужно всё сразу.",
+            "• Попробуй медитацию или технику глубокого дыхания для снятия стресса.",
+            "• Отдели время для отдыха от экрана — почитай книгу или послушай музыку."
         ],
-        "video": "https://youtu.be/iVDmCvG5kg8"  # Ссылка на видео для этой темы
+        "video": "https://youtu.be/iVDmCvG5kg8"
     },
     "anxiety": {
         "phrases": [
@@ -56,7 +60,7 @@ support_data = {
             "• Сделай дыхание: вдох на 4, задержка на 4, выдох на 4.",
             "• Опиши тревожные мысли на бумаге."
         ],
-        "video": "https://youtu.be/teuQGZQ3SQU"  # Ссылка на видео для этой темы
+        "video": "https://youtu.be/teuQGZQ3SQU"  
     },
     "motivation": {
         "phrases": [
@@ -70,7 +74,7 @@ support_data = {
             "• Перестань ждать вдохновения — начни делать.",
             "• Подумай, почему ты начал. Это вернёт фокус."
         ],
-        "video": "https://youtu.be/08AxYAerX5k"  # Ссылка на видео для этой темы
+        "video": "https://youtu.be/08AxYAerX5k"  
     },
     "confidence": {
         "phrases": [
@@ -84,7 +88,7 @@ support_data = {
             "• Запиши 5 своих сильных сторон.",
             "• Представь себя через год — и действуй уже сегодня."
         ],
-        "video": "https://youtu.be/kGHjwKbfYWs"  # Ссылка на видео для этой темы
+        "video": "https://youtu.be/kGHjwKbfYWs"  
     }
 }
 
