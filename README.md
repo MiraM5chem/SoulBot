@@ -68,5 +68,5 @@ InlineKeyboardMarkup используется для создания разме
 
 ![image](https://github.com/user-attachments/assets/dbc735fe-477f-4911-bb4f-938db1cc1e1c)
 
-Мой бот: @SoulMotivHelp_bot
+Мой бот: @Soul22848_bot
 
